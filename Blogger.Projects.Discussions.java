@@ -22,6 +22,24 @@ Blogger Project
 			* Programming Practices
 			* Code Example
 	_______________________________________________________
-	2. Code Conventions (Code Standards)
+	2. Code Conventions (Code Standards) - Introduction
 	_______________________________________________________
-		
+
+		*************************
+		Why Have Code Conventions
+		*************************
+			* 80% of the lifetime cost of a piece of software goes to maintenance.
+			* Hardly any software is maintained for its whole life by the original author.
+			* Code conventions improve the readability of the software, allowing engineers tounderstand new code more quickly and thoroughly.
+
+		**********
+		File Names
+		**********
+			* Every file which is included in the project should be logged in the document with name and usage.
+				-----------------------------------------------------------------
+				|	File 	|					Usage 							|
+				-----------------------------------------------------------------
+				|			|Module which is used to send SMS.					|
+				|SMSModule	|	Methods:										|
+				|			|		sendSMS(Long mobile_number, String message);|
+				-----------------------------------------------------------------
