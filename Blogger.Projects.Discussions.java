@@ -14,10 +14,6 @@ Blogger Project
 			* File Names
 			* File Organization
 			* Indentation
-			* Comments
-			* Declarations
-			* Statements
-			* White Space
 			* Naming Conventions
 			* Programming Practices
 			* Code Example
@@ -80,4 +76,27 @@ Blogger Project
 		***********		
 		Indentation
 		***********
+			Four spaces should be used as the unit of indentation. The exact construction of the indentation(spaces vs. tabs) is unspecified. Tabs
+			must be set exactly every 8 spaces (not 4).
 
+		******************
+		Naming Conventions
+		******************
+			Naming conventions make programs more understandable by making them easier to read.They can also give information about the function of
+			the identifier—for example, whether it’s aconstant, package, or class—which can be helpful in understanding the code.
+
+		*********************
+		Programming Practices
+		*********************
+			* Don’t make any instance or class variable public without good reason. Often, instancevariables don’t need to be explicitly set or
+			gotten—often that happens as a side effect ofmethod calls.
+			* Avoid using an object to access a class (static) variable or method. Use a class name instead.
+			* Numerical constants (literals) should not be coded directly, except for -1, 0, and 1, which canappear in afor loop as counter values.
+			* Avoid assigning several variables to the same value in a single statement.
+			* Do not use embedded assignments in an attempt to improve run-time performance. This is thejob of the compiler, and besides, it rarely
+			actually helps.
+			* It is generally a good idea to use parentheses liberally in expressions involving mixed operatorsto avoid operator precedence problems.
+			Even if the operator precedence seems clear to you, itmight not be to others—you shouldn’t assume that other programmers know precedence
+			aswell as you do.
+
+			
