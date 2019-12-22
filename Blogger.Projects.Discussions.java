@@ -40,7 +40,14 @@ Blogger Project
 				|	File 	|					Usage 							|
 				-----------------------------------------------------------------
 				|			|Module which is used to send SMS.					|
-				|SMSModule	|	Methods:										|
-				|			|		sendSMS(Long mobile_number, String message);|
+				|SMSModule	|Methods:											|
+				|			|sendSMS(Long mobile_number, String message);		|
 				-----------------------------------------------------------------
-			
+
+		*****************
+		File Organization
+		*****************
+			* A file consists of sections that should be separated by blank lines and an optional commentidentifying each section.
+			* Files longer than 2000 lines are cumbersome and should be avoided.
+
+		
