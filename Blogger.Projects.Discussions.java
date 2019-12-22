@@ -36,20 +36,19 @@ Blogger Project
 		File Names
 		**********
 			* Every file which is included in the project should be logged in the document with name and usage.
-				-----------------------------------------------------------------
-				|	File 	|					Usage 							|
-				-----------------------------------------------------------------
-				|			|Module which is used to send SMS.					|
-				|SMSModule	|Methods:											|
-				|			|sendSMS(Long mobile_number, String message);		|
-				-----------------------------------------------------------------
+				_________________________________________________________________
+					File 			Usage 					
+				_________________________________________________________________
+					SMSModule		Module which is used to send SMS.
+								
+					* Methods		sendSMS(Long mobile_number, String message);
 
 		*****************
 		File Organization
 		*****************
 			Links:
 			https://github.com/HariPrasadSala/Blogger.Project.Discussions/blob/master/AccBlogger/src/com/accenture/blogger/JavaSourceFile.java
-			
+
 			* A file consists of sections that should be separated by blank lines and an optional commentidentifying each section.
 			* Files longer than 2000 lines are cumbersome and should be avoided.
 
@@ -77,4 +76,8 @@ Blogger Project
 				* Instance variables
 				* Constructors
 				* Methods
+
+		***********		
+		Indentation
+		***********
 
