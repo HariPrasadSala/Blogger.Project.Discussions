@@ -1,4 +1,5 @@
 /*
+ * Beginning Comments
  * %W% %E%Firstname Lastname
  *
  * Copyright (c) 1993-1996 (Company Name), Inc. All Rights Reserved.
